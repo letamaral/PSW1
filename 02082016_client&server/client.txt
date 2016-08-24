@@ -1,0 +1,29 @@
+package client1;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Client1 {
+    public static void main(String[] args) {
+        try{
+            System.out.println("Escolha pedra, papel ou tesoura");
+            System.out.println("Conectando" + " na porta 1234");
+            Socket clientSocket = new Socket("10.61.16.16", 1234); // Conecta-se ao servidor remoto na porta indicada
+            System.out.println("CONEXÃO OK");
+            System.out.println("Insira uma mensagem: ");
+            BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in)); //Prepara para ler do teclado
+            String sentence = inFromUser.readLine(); //Le do teclado
+            DataOutputStream out = new DataOutputStream(clientSocket.getOutputStream()); //Prepara as classes para envio dos dados 
+            out.writeBytes(sentence + '\n'); //envia a mensagem (msg deve ser String)
+            //out.close(); //Para outro servidor
+            System.out.println("Mensagem Enviada");
+        }
+        catch(Exception e){
+            System.out.println("ERRO NA CONEXÃO");
+        }
+    }
+    
+}
