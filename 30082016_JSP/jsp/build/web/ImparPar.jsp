@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>JSP</title>
     </head>
     <body align="center">
         <h2><b>PAR OU ÍMPAR</b></h2>
