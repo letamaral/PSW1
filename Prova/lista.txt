@@ -1,0 +1,59 @@
+ Volume in drive C is OS
+ Volume Serial Number is 5EA3-1384
+
+ Directory of C:\Users\rafa\Downloads\provas
+
+06/09/2016  17:57    <DIR>          .
+06/09/2016  17:57    <DIR>          ..
+06/09/2016  17:53             3.056 Comando_Altura.html
+06/09/2016  17:53             3.075 Comando_Amazonas.html
+06/09/2016  17:53             3.075 Comando_Bandeira.html
+06/09/2016  17:53             3.077 Comando_Capitanias.html
+06/09/2016  17:53             3.112 Comando_Caverna.html
+06/09/2016  17:53             3.078 Comando_Copa.html
+06/09/2016  17:53             3.076 Comando_Cordilheira.html
+06/09/2016  17:53             3.072 Comando_Deputados.html
+06/09/2016  17:53             3.061 Comando_Diamante.html
+06/09/2016  17:53             3.082 Comando_Dinossauro.html
+06/09/2016  17:53             3.064 Comando_Distancia.html
+06/09/2016  17:53             3.062 Comando_Elefante.html
+06/09/2016  17:53             3.109 Comando_F1.html
+06/09/2016  17:53             3.039 Comando_Fabio.html
+06/09/2016  17:53             3.058 Comando_Facebook.html
+06/09/2016  17:53             3.048 Comando_Feijoada.html
+06/09/2016  17:53             3.089 Comando_Golfo.html
+06/09/2016  17:53             3.153 Comando_Groelandia.html
+06/09/2016  17:53             3.060 Comando_Homem.html
+06/09/2016  17:53             3.044 Comando_Idade.html
+06/09/2016  17:53             3.030 Comando_Java.html
+06/09/2016  17:53             3.059 Comando_Lactea.html
+06/09/2016  17:53             3.100 Comando_Lago.html
+06/09/2016  17:53             3.060 Comando_Lua.html
+06/09/2016  17:53             3.054 Comando_Luz.html
+06/09/2016  17:53             3.058 Comando_Malha.html
+06/09/2016  17:53             3.063 Comando_Marechal.html
+06/09/2016  17:53             3.031 Comando_Marte.html
+06/09/2016  17:53             3.077 Comando_Michael.html
+06/09/2016  17:53             3.122 Comando_Mulher.html
+06/09/2016  17:53             3.099 Comando_Muralha.html
+06/09/2016  17:53             3.042 Comando_Onu.html
+06/09/2016  17:53             3.183 Comando_Oscar.html
+06/09/2016  17:53             3.040 Comando_Osso.html
+06/09/2016  17:53             3.070 Comando_Palmares.html
+06/09/2016  17:53             3.072 Comando_Paranoa.html
+06/09/2016  17:53             3.094 Comando_Pedro_de_Lara.html
+06/09/2016  17:53             3.041 Comando_Pele.html
+06/09/2016  17:53             3.051 Comando_Populacao.html
+06/09/2016  17:53             3.047 Comando_Presidente.html
+06/09/2016  17:53             3.075 Comando_Russia.html
+06/09/2016  17:53             3.091 Comando_Safadao.html
+06/09/2016  17:53             3.080 Comando_Simpsons.html
+06/09/2016  17:53             3.127 Comando_Som.html
+06/09/2016  17:53             3.082 Comando_Tartaruga.html
+06/09/2016  17:53             3.026 Comando_Terra.html
+06/09/2016  17:53             3.087 Comando_Titanic.html
+06/09/2016  17:53             3.070 Comando_Vaticano.html
+06/09/2016  17:57                 0 lista.txt
+06/09/2016  17:53           117.288 tela1.png
+              50 File(s)        264.809 bytes
+               2 Dir(s)  331.586.519.040 bytes free
