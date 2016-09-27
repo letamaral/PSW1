@@ -5,6 +5,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.jboss.logging.Logger;
 public class listaIngredientes extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -36,7 +37,23 @@ public class listaIngredientes extends HttpServlet {
         private List<Ingrediente> buscaIngredientes(){
             List<Ingrediente> result = new ArrayList<Ingrediente>();
             
-            Ingrediente i1 = new Ingrediente();
+            try {
+                //Carrega o drive na memória
+                Class.forName("org.apache.derby.jdbc.ClientDriver");
+                //Conecta ao banco
+                Connection con = DriverManeger.getConnection("jdbc:derby://localhost:1527/sample", "app", "app")
+                Statement statement = con.createStatement();
+                String query = "SELECT * FROM INGREDIENTE";
+                ResultSet resposta = statement.executeQuery(query);
+                while (resposta.next()){
+                    Ingrediente i = new Ingrediente();
+                    i.setNome(resposta.getString("Nome"));
+                    i.setCalorias(resposta.getDouble("Calorias"));
+                    resultado.add(i);
+                }
+            }
+            
+            /*Ingrediente i1 = new Ingrediente();
             i1.setNome("Cenoura");
             i1.setCalorias(320);
             result.add(i1);
@@ -51,8 +68,11 @@ public class listaIngredientes extends HttpServlet {
             i3.setCalorias(530);
             result.add(i3);
             
-            return result;
+            return result;*/
+        } catch (Exception ex){
+            Logger.getLogger(ListarIngredientes.class.getName()).log(Level), suffix)
         }
+}
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

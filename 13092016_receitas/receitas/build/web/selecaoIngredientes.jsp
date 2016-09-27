@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>RECEITAS</title>
     </head>
     <body>
         <h1 align="center">RECEITAS</h1>
@@ -12,5 +12,6 @@
         <c:forEach items="${requestScope.ingredientesDisponiveis}" var="ingr">
         <input type="checkbox" name="ingred" value="${ingr.nome}"> ${ingr.nome} (${ingr.calorias} calorias)<br>
         </c:forEach>
+        <br><input type="submit" value="Verificar">
     </body>
 </html>

@@ -7,11 +7,11 @@
         <title>RECEITAS</title>
     </head>
     <body>
+        <body>
         <h1 align="center">RECEITAS</h1>
-        <h2 align="center">Ingredientes disponíveis: </h2>
-        <c:forEach items="${requestScope.ingredientesDisponiveis}" var="ingr">
-        <input type="checkbox" name="ingred" value="${ingr.nome}"> ${ingr.nome} (${ingr.calorias} calorias)<br>
+        <h2 align="center">Sugestões de receitas com base nos ingredientes selecionados: </h2>
+        <c:forEach items="${requestScope.recei}" var="receita">
+            ${receita.nome} <br/>
         </c:forEach>
-        <br><input type="submit" value="Verificar">
     </body>
 </html>
