@@ -24,8 +24,26 @@ public class criaEstrela extends HttpServlet {
             String constelacao = request.getParameter("Constelacao");
             String distancia = request.getParameter("Distancia_da_terra");
             
-            String query = "INSERT INTO bancoEstrela values ('" + nome + "," + constelacao + "," + distancia + ")";
-            
+			//Linha antiga:
+            //String query = "INSERT INTO bancoEstrela values ('" + nome + "," + constelacao + "," + distancia + ")";
+
+            //Linha nova (assumindo que 'bancoEstrela' seja o nome da tabela no banco de dados):
+			String query = "INSERT INTO bancoEstrela values ('" + nome + "','" + constelacao + "'," + distancia + ")";
+			
+			/*
+			Para criar uma tabela que funcione com esse codigo eu usaria o seguinte comando SQL:
+			
+			CREATE TABLE bancoEstrela (
+				nome varchar(255),
+				constelacao varchar(255),
+				distancia integer				
+			)
+			
+			
+			lembra como criar a tabela no banco ??
+			
+			*/
+			
             int valores = envioBanco.executeUpdate(query);
             
             out.println("<!DOCTYPE html>");
