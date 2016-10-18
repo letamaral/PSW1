@@ -47,5 +47,9 @@ public class Estrela implements Serializable{
     public boolean persiste() {
         return false; 
     }
+
+    public void setDistancia(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

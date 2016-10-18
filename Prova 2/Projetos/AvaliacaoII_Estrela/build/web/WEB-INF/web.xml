@@ -8,6 +8,10 @@
         <servlet-name>criaEstrela</servlet-name>
         <servlet-class>criaEstrela</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>listarEstrelas</servlet-name>
+        <servlet-class>listarEstrelas</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>receptor_ESTRELA</servlet-name>
         <url-pattern>/receptor_ESTRELA</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>criaEstrela</servlet-name>
         <url-pattern>/criaEstrela</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>listarEstrelas</servlet-name>
+        <url-pattern>/listarEstrelas</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
