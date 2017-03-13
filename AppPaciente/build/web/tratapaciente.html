@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body><center>
+        <form name="f1" action="ControleServlet" method="POST">
+            <h2>Cadastramento de Paciente</h2>
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td>CPF</td>
+                        <td><input type="text" name="tfCpf" size="11" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nome</td>
+                        <td><input type="text" name="tfNome" size="40" /></td>
+                    </tr>
+                    <tr>
+                        <td>data_nascimento</td>
+                        <td><input type="text" name="tfDtNasc" size="10" /></td>
+                    </tr>
+                    <tr>
+                        <td>sexo</td>
+                        <td><input type="text" name="tfSexo" size="1" /></td>
+                    </tr>
+                    <tr>
+                        <td>telefone</td>
+                        <td><input type="text" name="tfTelefone" size="12" /></td>
+                    </tr>
+                    <tr>
+                        <td>Convenio</td>
+                        <td><input type="text" name="tfConvenio" size="20" /></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Inserir" name="btOpcao" />
+            <input type="submit" value="Selecionar" name="btOpcao" />
+            <input type="reset" value="Limpar" name="btLimpar" />
+            <input type="submit" value="Sair" name="btOpcao" />
+        </form></center>
+    </body>
+</html>
